@@ -1,0 +1,3 @@
+id={{ .projectId }}
+name={{ .projectName | replace "-" "_" }}
+version={{ .vsVersion }}

@@ -1,0 +1,8 @@
+The .toco directory is used to store rules (supporting .md files only). The internal structure is defined as follows:
+
+global/ Contains general rules applicable to all Agents. These rules take effect globally across the entire system.
+toco/ Contains rules specific to the Toco Agent. These are used for high-level process control (e.g., "modeling prohibited," "planning mandatory"). Typically, no new rules need to be added here.
+modeling/ Contains rules specific to the Domain Architect Agent, used during the domain modeling phase.
+plan/ Contains rules specific to the Planner Agent, used during the planning and analysis phase.
+design/ Contains rules specific to the Designer Agent, used for operating and managing TOCO design elements.
+coding/ Contains rules specific to the Developer Agent, used during the code implementation phase.
