@@ -37,5 +37,7 @@ _FOSSIL_
 _FOSSIL_-journal
 .fslckout
 .fslckout-journal
+.toco/test-run-commands.json
+.toco/branch_map.json
 
 *.pem
